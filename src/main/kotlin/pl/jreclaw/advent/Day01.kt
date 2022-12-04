@@ -1,6 +1,6 @@
 package pl.jreclaw.advent
 
-class Day01 (private val input: List<String>) {
+class Day01(private val input: List<String>) {
     fun solvePart1(): Int = solve(1)
 
     fun solvePart2(): Int = solve(3)
@@ -21,5 +21,4 @@ class Day01 (private val input: List<String>) {
         }
         return list.sortedDescending().take(limit).sum()
     }
-
 }

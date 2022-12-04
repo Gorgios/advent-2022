@@ -11,7 +11,7 @@ class Day02Test {
         listOf("A Y", "B X", "C Z");
 
     @Test
-    fun `Part 1`() {
+    fun `Part 1 Example`() {
         // act
         val answer = Day02(exampleInput).solvePart1();
 
@@ -20,11 +20,30 @@ class Day02Test {
     }
 
     @Test
-    fun `Part 2`() {
+    fun `Part 1 Actual`() {
+        // act
+        val answer = Day02(Resources.fileAsListOfString("Day02.txt")).solvePart1();
+
+        // assert
+        assertEquals(answer, 13268)
+    }
+
+    @Test
+    fun `Part 2 Example`() {
         // act
         val answer = Day02(exampleInput).solvePart2();
 
         // assert
         assertEquals(answer, 12)
     }
+
+    @Test
+    fun `Part 2 Actual`() {
+        // act
+        val answer = Day02(Resources.fileAsListOfString("Day02.txt")).solvePart2();
+
+        // assert
+        assertEquals(answer, 15508)
+    }
+
 }
