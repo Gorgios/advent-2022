@@ -20,7 +20,8 @@ class Day03(private val input: List<String>) {
                 }
             }.map {
                 it.single().first()
-            }.sumOf { calcCode(it) }
+            }.sumOf { calcCode(it)
+            }
 
     private fun calcCode(character: Char): Int =
         1 + when (val c = character.code) {
