@@ -5,6 +5,10 @@ import java.io.File
 import java.net.URI
 
 internal object Resources {
+
+    fun fileAsString(fileName: String): String =
+        File(fileName.toURI()).readText()
+
     fun fileAsListOfString(fileName: String): List<String> =
         File(fileName.toURI()).readLines()
 

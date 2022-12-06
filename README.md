@@ -19,6 +19,10 @@ Along with improving my programming skills I want to learn new language this yea
 * Only thing I had to do to solve both parts, was to found intersect function. 
 However, I did it already in day3, so everything went smoothly;)
 
-#### Day 4
+#### Day 5
 * I have lot of fun with this task. Learned a little about parsing in kotlin. When input is correctly parsed,
 exercise become easy, because there is only need to use stacks correctly. 
+
+#### Day 6
+* Interesting puzzle. I went declarative way, but I know that I could make it working faster by iterating in loop 
+and using slicing window technique. However, execution took 20 ms, so who worry ;)
