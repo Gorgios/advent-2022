@@ -30,3 +30,6 @@ and using slicing window technique. However, execution took 20 ms, so who worry 
 #### Day 7
 * Exercise took more time than I expected, because on first attempt I tried to solve it using map. After some debugging
 I realized that two dirs can contains directory with same name (shame on me), so I created simple data structure to solve this problem :) 
+
+#### Day 8
+* Very pleasant puzzle, just need to correctly traverse 2D array. Solutions may not look very elegant, but I didn't find better way to solve it.
