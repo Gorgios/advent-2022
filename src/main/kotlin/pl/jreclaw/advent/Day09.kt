@@ -1,21 +1,29 @@
 package pl.jreclaw.advent
 
-import kotlin.math.abs
 import java.util.*
 import kotlin.collections.HashSet
+import kotlin.math.abs
+import kotlin.math.sign
 
 class Day09(private val input: List<String>) {
 
-    fun solvePart1(): Int {
+    fun solvePart1(): Int =
+        solve(2)
+
+    fun solvePart2(): Int =
+        solve(10)
+
+    private fun solve(size: Int): Int {
         val set: MutableSet<Point> = HashSet()
-        var head = Point(0, 0)
-        var tail = Point(0, 0)
+        val parts = Array(size) { Point(0, 0) }
         input.forEach {
             val split = it.trim().split(" ")
             for (i in 0 until split[1].toInt()) {
-                head = moveHead(head, split[0][0])
-                tail = moveTail(head, tail, split[0][0])
-                set.add(tail)
+                parts[0] = moveHead(parts[0], split[0][0])
+                for (j in 1 until size) {
+                    parts[j] = moveTail(parts[j - 1], parts[j])
+                }
+                set.add(parts.last())
             }
         }
         return set.size
@@ -30,17 +38,13 @@ class Day09(private val input: List<String>) {
             else -> error("Unrecognized direction - \$(dir)}")
         }
 
-    private fun moveTail(head: Point, tail: Point, dir: Char): Point {
+    private fun moveTail(head: Point, tail: Point): Point {
         if (head.touching(tail)) {
             return tail
         }
-        return when (dir) {
-            'R' -> Point(head.x - 1, head.y)
-            'L' -> Point(head.x + 1, head.y)
-            'U' -> Point(head.x, head.y + 1)
-            'D' -> Point(head.x, head.y - 1)
-            else -> error("Unrecognized direction - \$(dir)}")
-        }
+        val yDiff = head.y - tail.y
+        val xDiff = head.x - tail.x
+        return Point(tail.x + (xDiff.sign + xDiff) / 2, tail.y + (yDiff.sign + yDiff) / 2)
     }
 
     class Point(val x: Int, val y: Int) {

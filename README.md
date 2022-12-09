@@ -32,4 +32,9 @@ and using slicing window technique. However, execution took 20 ms, so who worry 
 I realized that two dirs can contains directory with same name (shame on me), so I created simple data structure to solve this problem :) 
 
 #### Day 8
-* Very pleasant puzzle, just need to correctly traverse 2D array. Solutions may not look very elegant, but I didn't find better way to solve it.
+* Very pleasant puzzle, just need to correctly traverse 2D array. Solutions may not look very elegant,
+* but I didn't find better way to solve it.
+
+#### Day 9
+* Tricky puzzle, my firs part one solution was not suitable for part 2, but after some debugging 
+* I found how to solve in simple way and make solution generic for both parts. I'm feeling more comfortable with Kotlin every day! 
