@@ -37,4 +37,8 @@ I realized that two dirs can contains directory with same name (shame on me), so
 
 #### Day 9
 * Tricky puzzle, my firs part one solution was not suitable for part 2, but after some debugging 
-* I found how to solve in simple way and make solution generic for both parts. I'm feeling more comfortable with Kotlin every day! 
+I found how to solve in simple way and make solution generic for both parts. I'm feeling more comfortable with Kotlin every day! 
+
+#### Day 10
+* Today's tasks were more easy than puzzle description may indicate. I know that my solution can look 
+little bit ugly, but I did not figure out better way to solve it, sorry :) 
