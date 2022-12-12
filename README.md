@@ -42,3 +42,11 @@ I found how to solve in simple way and make solution generic for both parts. I'm
 #### Day 10
 * Today's tasks were more easy than puzzle description may indicate. I know that my solution can look 
 little bit ugly, but I did not figure out better way to solve it, sorry :) 
+
+#### Day 11
+* Part 1 was quite simple and needed only good input parsing. However, part2 was in my opinion very tricky and
+it took some time for me to figure out how to solve it. After all I combine both solutions into 1 generic.
+
+#### Day 12
+* Operations on graphs it is what I like! I use BFS to find the shortest path from S to E. 
+In part to I also used BFS, but in opposite way, from E to first occurrence of 'a'. Didn't have time to generify both solutions ;)
