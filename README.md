@@ -50,3 +50,7 @@ it took some time for me to figure out how to solve it. After all I combine both
 #### Day 12
 * Operations on graphs it is what I like! I use BFS to find the shortest path from S to E. 
 In part to I also used BFS, but in opposite way, from E to first occurrence of 'a'. Didn't have time to generify both solutions ;)
+
+#### Day 13
+* In my opinion that puzzle was one of hardest this year (can compete only with day11 part 2). I need to create proper
+data structure (nested list) and method to compare lists. I had something like comparator in part1 so I did part 2 so quickly.
