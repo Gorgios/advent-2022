@@ -54,3 +54,7 @@ In part to I also used BFS, but in opposite way, from E to first occurrence of '
 #### Day 13
 * In my opinion that puzzle was one of hardest this year (can compete only with day11 part 2). I need to create proper
 data structure (nested list) and method to compare lists. I had something like comparator in part1 so I did part 2 so quickly.
+
+#### Day 14
+* Both parts were pretty simple to solve! I didn't have time to figure out faster and more clever solutions,
+however, I think, that provided simulations are not bad at all ;)
