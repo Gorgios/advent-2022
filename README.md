@@ -58,3 +58,7 @@ data structure (nested list) and method to compare lists. I had something like c
 #### Day 14
 * Both parts were pretty simple to solve! I didn't have time to figure out faster and more clever solutions,
 however, I think, that provided simulations are not bad at all ;)
+
+#### Day 15
+* I went with brute force for part2 instead of trying to find a optimal solution. I was afraid it could take forever 
+to complete, but it finished in 11 second, so I'm happy that another day is complete!
