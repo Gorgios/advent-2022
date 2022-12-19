@@ -66,3 +66,8 @@ to complete, but it finished in 11 second, so I'm happy that another day is comp
 #### Day 16
 * Definitely the hardest puzzle so far. I'm not very proud of my code. I had to introduce caching to solve problem in finite time ;).
 I know my solutions are not optimal, part 1 seems to be fast, but part 2 takes about a minute.   
+
+#### Day 17
+* Interesting puzzle, I had a lot of fun with them. I'm aware that my solution looks a bit dirty, but I think, I could
+did it even worse ;) My algorithm simulates falling rocks and trying to detect cycle. When cycle is detected, algorithm
+skips major part of calculations using values in cache (rocks, maxHeight).
