@@ -15,6 +15,10 @@ internal object Resources {
     fun fileAsListOfSplitString(fileName: String, delimiter: String): List<List<String>> =
         File(fileName.toURI()).readLines().map { it.split(delimiter) }
 
+    fun fileAsListOfLong(fileName: String): List<Long> =
+        File(fileName.toURI()).readLines().map{it.toLong()}
+
+
     fun fileAsChar2dArray(fileName: String): Array<Array<Char>> {
         val lines = File(fileName.toURI()).readLines()
         return Array(lines.size){ i ->

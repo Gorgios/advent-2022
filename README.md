@@ -75,3 +75,7 @@ skips major part of calculations using values in cache (rocks, maxHeight).
 #### Day 18
 * Christmas is comming! 18th day puzzles were not very hard. Maybe I would changed my mind if I tried to find optimal solution.
 Anyway, I went for tricky solution using bfs and works fine. 
+
+#### Day 20
+* Quite fun puzzle! After a plenty of failed submissions I realized that elements are not distinct
+(I used map to store value-Node pairs ...). Good I checked that ;)
