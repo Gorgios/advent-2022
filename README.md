@@ -71,3 +71,7 @@ I know my solutions are not optimal, part 1 seems to be fast, but part 2 takes a
 * Interesting puzzle, I had a lot of fun with them. I'm aware that my solution looks a bit dirty, but I think, I could
 did it even worse ;) My algorithm simulates falling rocks and trying to detect cycle. When cycle is detected, algorithm
 skips major part of calculations using values in cache (rocks, maxHeight).
+
+#### Day 18
+* Christmas is comming! 18th day puzzles were not very hard. Maybe I would changed my mind if I tried to find optimal solution.
+Anyway, I went for tricky solution using bfs and works fine. 
