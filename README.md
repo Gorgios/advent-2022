@@ -79,3 +79,8 @@ Anyway, I went for tricky solution using bfs and works fine.
 #### Day 20
 * Quite fun puzzle! After a plenty of failed submissions I realized that elements are not distinct
 (I used map to store value-Node pairs ...). Good I checked that ;)
+
+#### Day 21
+* Interesting tasks today, but not very challenging. I remember similar task 2 years ago I guess. 
+My initial solution was very messy (but working tho) , so as part of Kotlin training, I refactored it and now can commit changes ;)
+I hope I'll have time to sit to Day 19 puzzles before Christmas!
